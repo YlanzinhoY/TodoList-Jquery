@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    background: rgb(37, 40, 67);
+    color: #fff;
+}
+.to-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    border-bottom: 2px solid #fff;
+    margin-bottom: 50px;
+}
+.header{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.content-list ul li{
+    list-style: none;
+    font-size: 20px;
+    position: relative;
+}
+
+.content-list{
+    background: rgb(70, 65, 65);
+    width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.content{
+    text-align: center;
+    margin: 10px;
+}
+
+ul li{
+    padding: 10px;
+}
+
+ul .fa-check{
+    text-decoration: none;
+    right: 90px;
+    color: rgb(10, 167, 10);
+}
+
+ul .fa-trash{
+    text-decoration: none;
+    color: rgb(229, 58, 58);
+}
+
+ul .checked{
+    background: rgb(181, 230, 181);
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: line-through;
+    transition: .2s;
+}
